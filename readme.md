@@ -1,6 +1,8 @@
 # ARMA EXT - [Downloads](https://github.com/maca134/armaext/releases)
 This is an extension/mod that will allow you to compile/run C# and Javascript (NodeJS) on the fly.
 
+More languages can/will be added if requested.
+
 The mod has only 2 functions:
 
 Load some c#, returns a pointer
@@ -34,6 +36,9 @@ You are free to use any nodejs modules
 
 - If you use this on clients, DISABLE BATTLEYE!
 - Output is auto truncated, no way to get current output size yet
+
+## Credits
+Most of this was inspired by the work done by [tjanczuk](https://github.com/tjanczuk) on [Edge](https://github.com/tjanczuk/edge)
 
 ## Licence
 This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
