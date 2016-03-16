@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "armaext", "armaext\armaext.csproj", "{0F5C7A64-D683-445E-B0AB-CA9E5EE19438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "armaextconsole", "armaextconsole\armaextconsole.csproj", "{7E1367B7-4231-4B9E-BFF3-4C4487AADC54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F5C7A64-D683-445E-B0AB-CA9E5EE19438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5C7A64-D683-445E-B0AB-CA9E5EE19438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5C7A64-D683-445E-B0AB-CA9E5EE19438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5C7A64-D683-445E-B0AB-CA9E5EE19438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1367B7-4231-4B9E-BFF3-4C4487AADC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1367B7-4231-4B9E-BFF3-4C4487AADC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1367B7-4231-4B9E-BFF3-4C4487AADC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1367B7-4231-4B9E-BFF3-4C4487AADC54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

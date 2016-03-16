@@ -1,0 +1,14 @@
+.hg/*
+.hgignore
+armacsconsole/bin/*
+armacsconsole/obj/*
+armaext/bin/*
+armaext/obj/*
+project/packages/*
+armacsconsole.exe.config
+armacsconsole.vshost.exe.config
+armacsconsole.vshost.exe.manifest
+project/.vs/*
+.git/*
+project/armaextconsole/obj/*
+project/armaextconsole/bin/*

@@ -1,0 +1,11 @@
+{
+  "name": "armaext",
+  "version": "1.0.0",
+  "description": "This is an extension/mod that will allow you to compile/run C# on the fly to ease rapid development of a c# ARMA extension",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maca134",
+  "license": "ISC"
+}
