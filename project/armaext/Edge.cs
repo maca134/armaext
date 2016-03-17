@@ -48,7 +48,7 @@ namespace armaext
         [DllImport("kernel32.dll", EntryPoint = "LoadLibrary")]
         static extern int LoadLibrary([MarshalAs(UnmanagedType.LPStr)] string lpLibFileName);
 
-        public static Func<object, Task<object>> Func(string code)
+        public static Func<object, Task<object>> Func(string file)
         {
             if (!initialized)
             {
@@ -102,9 +102,12 @@ namespace armaext
             {
                 throw new InvalidOperationException("Edge.Func cannot be used after Edge.Close had been called.");
             }
-
+            var tmp = Path.Combine(Path.GetDirectoryName(file), Guid.NewGuid().ToString() + Path.GetExtension(file));
+            File.WriteAllText(tmp, File.ReadAllText(file));
+            var code = string.Format("return require('{0}');", tmp.Replace("\\", "\\\\"));
             var task = compileFunc(code);
             task.Wait();
+            File.Delete(tmp);
             return (Func<object, Task<object>>)task.Result;
         }
     }

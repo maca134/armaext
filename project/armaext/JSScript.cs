@@ -60,7 +60,7 @@ namespace armaext
 
         public void Load(string file)
         {
-            _script = Edge.Func(File.ReadAllText(file));
+            _script = Edge.Func(file);
         }
 
         public string Invoke(string input)

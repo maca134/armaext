@@ -27,7 +27,7 @@ class Startup {
 
 The Javascript has to return a function with 2 arguments:
 ```
-return function (data, callback) {
+module.exports = function (data, callback) {
 	var err = null;
 	callback(err, "Hello World from NodeJS");
 };

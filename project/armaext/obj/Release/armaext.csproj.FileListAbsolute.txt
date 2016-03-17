@@ -1,5 +1,0 @@
-U:\Projects\ARMA\ARMA3\@armaext\project\armaext\bin\Release\armaext.dll
-U:\Projects\ARMA\ARMA3\@armaext\project\armaext\bin\Release\armaext.pdb
-U:\Projects\ARMA\ARMA3\@armaext\project\armaext\obj\Release\armaext.dll
-U:\Projects\ARMA\ARMA3\@armaext\project\armaext\obj\Release\armaext.pdb
-U:\Projects\ARMA\ARMA3\@armaext\project\armaext\obj\Release\armaext.csprojResolveAssemblyReference.cache
