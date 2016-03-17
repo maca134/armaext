@@ -62,7 +62,7 @@ namespace armaext
         private static string Load(string file, string args)
         {
             var response = string.Empty;
-
+    
             var scriptpath = file;
             if (!Path.IsPathRooted(file))
             {

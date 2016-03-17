@@ -15,3 +15,4 @@ project/armaextconsole/bin/*
 edge/*
 project/armaext/bin/*
 project/armaext/obj/*
+examples/javascript/node_modules/*
