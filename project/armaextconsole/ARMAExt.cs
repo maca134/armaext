@@ -34,7 +34,8 @@ namespace armaextconsole
             }
             StringBuilder output = new StringBuilder();
             char[] function = input.ToCharArray();
-            int outputSize = 2048;
+            int outputSize = 10000;
+            output.Length = outputSize;
             _rvextension(output, outputSize, function);
             return output.ToString();
         }

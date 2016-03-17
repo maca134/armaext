@@ -84,6 +84,9 @@ namespace armaext
                 case ".js":
                     script = new JSScript();
                     break;
+                case ".py":
+                    script = new PYScript();
+                    break;
                 default:
                     Console.WriteLine("ERROR: Unknown file type");
                     return "ERROR";

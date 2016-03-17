@@ -1,11 +1,11 @@
 # ARMA EXT - [Downloads](https://github.com/maca134/armaext/releases)
-This is an extension/mod that will allow you to compile/run C# and Javascript (NodeJS) on the fly.
+This is an extension/mod that will allow you to compile/run C#/Javascript (NodeJS)/Python on the fly.
 
 More languages can/will be added if requested.
 
 The mod has only 2 functions:
 
-Load some c#, returns a pointer
+Load script, returns a pointer
 ```
 _pointer = [_path_to_script] call ARMAEXT_fnc_load
 ```
@@ -33,6 +33,14 @@ module.exports = function (data, callback) {
 };
 ```
 You are free to use any nodejs modules
+
+Python has to evaluate to a Python lambda expression that takes one parameter.
+```
+def example(input):
+	return "Python welcomes " + input
+
+lambda x: example(x)
+```
 
 - If you use this on clients, DISABLE BATTLEYE!
 - Output is auto truncated, no way to get current output size yet

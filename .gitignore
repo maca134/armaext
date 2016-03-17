@@ -14,4 +14,4 @@ project/armaextconsole/obj/*
 project/armaextconsole/bin/*
 edge/*
 project/armaext/bin/*
-project/armaext/bin/Debug/armaext.exp
+project/armaext/obj/*
