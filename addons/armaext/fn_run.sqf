@@ -19,8 +19,9 @@ params [
 ];
 if (_pointer isEqualTo -1) exitWith {false};
 private _response = "armaext" callExtension format['run%1%2%1%3%1', toString[10], _pointer, _args];
-if (_pointer == 'ERROR') exitWith {
+if (_response == 'ERROR') exitWith {
 	diag_log 'armaext run error - check console';
 	false
 };
+
 _response
