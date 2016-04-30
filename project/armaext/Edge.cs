@@ -1,4 +1,5 @@
-﻿using System;
+// Modified/inspired from https://github.com/tjanczuk/edge-cs/blob/master/src/edge-cs/EdgeCompiler.cs
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
